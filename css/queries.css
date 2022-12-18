@@ -1,0 +1,163 @@
+/* rem and em do NOT depend on html font-size in media queries! Instead, 1rem = 1em = 16px */
+
+/**************************/
+/* BELOW 540px (Phones) */
+/**************************/
+
+@media (min-width: 34em) {
+}
+
+/**************************/
+/* BELOW 704px (Smaller tablets) */
+/**************************/
+
+@media (min-width: 44em) {
+}
+
+/**************************/
+/* BELOW 944px (Tablets) */
+/**************************/
+
+@media (min-width: 59em) {
+  h1,
+  h2,
+  h3 {
+    width: 50%;
+  }
+
+  h1 {
+    font-size: 8.6rem;
+  }
+
+  h2 {
+    font-size: 4.8rem;
+  }
+
+  h3 {
+    font-size: 2.6rem;
+  }
+
+  .container_onas {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2.4rem;
+    align-items: center;
+  }
+
+  .onas_description {
+    grid-row: 1;
+    grid-column: 1;
+    align-self: stretch;
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+  }
+
+  .onas_img {
+    grid-column: 2;
+    align-self: stretch;
+  }
+
+  .spec_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    gap: 2rem;
+  }
+
+  .oferta_grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 5rem;
+  }
+
+  .ofert_ul {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 0;
+    list-style: none;
+    align-items: center;
+  }
+
+  .oferta_img {
+    display: block;
+    width: 100%;
+  }
+
+  .btn_3 {
+    width: 28%;
+    font-size: 1.8rem;
+  }
+
+  .btn_1,
+  .btn_2,
+  .btn_4 {
+    width: 24%;
+    font-size: 1.8rem;
+  }
+
+  .kontakt_wrapper {
+    display: flex;
+  }
+}
+
+/**************************/
+/* BELOW 1200px (Landscape Tablets) */
+/**************************/
+
+@media (min-width: 75em) {
+  html {
+    /* 9px / 16px  */
+    font-size: 56.25%;
+  }
+
+  .main-nav {
+    justify-content: flex-end;
+    background-color: inherit;
+    position: static;
+    opacity: 1;
+    pointer-events: visible;
+    visibility: visible;
+    height: 100%;
+    transform: translateX(0);
+    transition: all 0s;
+  }
+
+  .main-nav-list {
+    flex-direction: row;
+  }
+
+  .main-nav-link:link,
+  .main-nav-link:visited {
+    font-size: 2rem;
+  }
+
+  .last-nav-link:link,
+  .last-nav-link:visited {
+    font-size: 2rem;
+  }
+
+  .btn-mobile-nav {
+    position: absolute;
+    border: none;
+    background: none;
+    cursor: pointer;
+
+    display: none;
+  }
+
+  .icon-mobile-nav[name='close-outline'] {
+    display: none;
+  }
+}
+
+/**************************/
+/* BELOW 1344px (Smaller desktops) */
+/**************************/
+
+@media (min-width: 84em) {
+  html {
+    /* 10px / 16px = 0.625 = 62.5% */
+    font-size: 62.5%;
+  }
+}
