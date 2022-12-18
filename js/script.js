@@ -38,25 +38,25 @@ obs.observe(sectionONasEl);
 ///////////////////////////////////////////////////////////
 // Oferta TAB BOX
 
-const ofertaButtons = document.querySelectorAll('.btn_inactive');
-const ofertaBtnContainer = document.querySelector('.ofert_ul');
-const ofertaContent = document.querySelectorAll('.oferta_content');
+const ofertaButtons = document.querySelectorAll('.btn-inactive');
+const ofertaBtnContainer = document.querySelector('.ofert-ul');
+const ofertaContent = document.querySelectorAll('.oferta-content');
 
 ofertaBtnContainer.addEventListener('click', function (e) {
-  const clicked = e.target.closest('.btn_inactive');
+  const clicked = e.target.closest('.btn-inactive');
 
   // Guard clause
   if (!clicked) return;
 
   // Remove active classes
-  ofertaButtons.forEach(t => t.classList.remove('btn_active'));
-  ofertaContent.forEach(r => r.classList.remove('oferta_content_active'));
+  ofertaButtons.forEach(t => t.classList.remove('btn-active'));
+  ofertaContent.forEach(r => r.classList.remove('oferta-content-active'));
 
   // Activate tab
-  clicked.classList.add('btn_active');
+  clicked.classList.add('btn-active');
 
   // Activate content area
   document
-    .querySelector(`.oferta_content_${clicked.dataset.tab}`)
-    .classList.add('oferta_content_active');
+    .querySelector(`.oferta-content-${clicked.dataset.tab}`)
+    .classList.add('oferta-content-active');
 });

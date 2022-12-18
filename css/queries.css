@@ -37,14 +37,14 @@
     font-size: 2.6rem;
   }
 
-  .container_onas {
+  .container-onas {
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 2.4rem;
     align-items: center;
   }
 
-  .onas_description {
+  .onas-description {
     grid-row: 1;
     grid-column: 1;
     align-self: stretch;
@@ -53,25 +53,25 @@
     align-items: center;
   }
 
-  .onas_img {
+  .onas-img {
     grid-column: 2;
     align-self: stretch;
   }
 
-  .spec_wrapper {
+  .spec-wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
 
     gap: 2rem;
   }
 
-  .oferta_grid {
+  .oferta-grid {
     display: grid;
     grid-template-columns: 2fr 1fr;
     column-gap: 5rem;
   }
 
-  .ofert_ul {
+  .ofert-ul {
     display: flex;
     flex-flow: row nowrap;
     gap: 0;
@@ -79,24 +79,24 @@
     align-items: center;
   }
 
-  .oferta_img {
+  .oferta-img {
     display: block;
     width: 100%;
   }
 
-  .btn_3 {
+  .btn-3 {
     width: 28%;
     font-size: 1.8rem;
   }
 
-  .btn_1,
-  .btn_2,
-  .btn_4 {
+  .btn-1,
+  .btn-2,
+  .btn-4 {
     width: 24%;
     font-size: 1.8rem;
   }
 
-  .kontakt_wrapper {
+  .kontakt-wrapper {
     display: flex;
   }
 }

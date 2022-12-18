@@ -8,7 +8,7 @@
   position: relative;
 }
 
-.header_nav {
+.header-nav {
   max-width: 1200px;
   height: 8rem;
   padding: 0 3.2rem;
@@ -86,7 +86,7 @@
   margin-top: 8rem;
 }
 
-.sticky .header_nav {
+.sticky .header-nav {
   background-color: var(--white);
 }
 
@@ -156,7 +156,7 @@
 /**************************/
 /* ONAS */
 /**************************/
-.container_onas {
+.container-onas {
   display: flex;
   flex-direction: column;
   gap: 3rem;
@@ -174,11 +174,11 @@
   align-items: center;
 }
 
-.onas_img {
+.onas-img {
   overflow: hidden;
 }
 
-.main_img {
+.main-img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -186,15 +186,15 @@
   transition: all 0.9s;
 }
 
-.main_img:hover {
+.main-img:hover {
   transform: scale(1.2);
 }
 
-.przeslanie_text {
+.przeslanie-text {
   font-size: 4rem;
 }
 
-.przeslanie_text_2 {
+.przeslanie-text-2 {
   font-size: 2.5rem;
 }
 
@@ -202,19 +202,19 @@
 /* SPECJALIŚCI */
 /**************************/
 
-.spec_wrapper {
+.spec-wrapper {
   display: flex;
   flex-direction: column;
   gap: 4.8rem;
 }
 
-.spec_column {
+.spec-column {
   display: flex;
   flex-direction: column;
   gap: 2rem;
 }
 
-.spec_id {
+.spec-id {
   display: flex;
   flex-direction: column;
   gap: 2rem;
@@ -223,29 +223,29 @@
   box-shadow: var(--shadow);
 }
 
-.spec_img {
+.spec-img {
   /* margin: auto; */
   text-align: center;
 }
 
-.spec_opis {
+.spec-opis {
   display: flex;
   flex-direction: column;
   gap: 1rem;
 }
 
-.spec_img img {
+.spec-img img {
   width: 20rem;
 }
 
-.spec_ul {
+.spec-ul {
   display: flex;
   flex-direction: column;
   gap: 0.8rem;
   margin-top: 1rem;
 }
 
-.spec_li {
+.spec-li {
   margin-left: 2rem;
 }
 
@@ -253,37 +253,37 @@
 /* OFERTA */
 /**************************/
 
-.oferta_wrapper {
+.oferta-wrapper {
   display: flex;
   flex-direction: column;
   gap: 3.2rem;
 }
 
-.ofert_ul {
+.ofert-ul {
   display: flex;
   flex-direction: column;
   gap: 1rem;
   list-style: none;
 }
 
-.oferta_img {
+.oferta-img {
   display: none;
 }
 
-.oferta_description {
+.oferta-description {
   display: flex;
   flex-direction: column;
   gap: 2rem;
 }
 
-.oferta_content {
+.oferta-content {
   display: none;
   padding: 1.5rem;
   background-color: var(--white);
   box-shadow: var(--shadow);
 }
 
-.oferta_content_active {
+.oferta-content-active {
   display: block;
 }
 
@@ -302,13 +302,13 @@
   box-shadow: var(--shadow);
 }
 
-.cennik_note {
+.cennik-note {
   padding: 0.5rem 1rem;
   margin: auto;
   max-width: 670px;
 }
 
-.description_btn {
+.description-btn {
   text-align: center;
   padding: 0.5rem;
 }
@@ -317,23 +317,23 @@
 /* KONTAKT */
 /**************************/
 
-.kontakt_container {
+.kontakt-container {
   display: flex;
   flex-direction: column;
   gap: 1.6rem;
 }
 
-.kontakt_p {
+.kontakt-p {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
 
-.text_lower {
+.text-lower {
   margin-bottom: 1rem;
 }
 
-.phone_link {
+.phone-link {
   text-decoration: none;
   color: var(--white);
   background-color: var(--primary2);
@@ -343,19 +343,19 @@
   transition: all 0.4s;
 }
 
-.phone_link:hover {
+.phone-link:hover {
   color: var(--white);
   background-color: var(--primary1);
 }
 
-.social_icons {
+.social-icons {
   width: 4rem;
   height: 4rem;
   color: var(--primary2);
   transition: all 0.3s;
 }
 
-.social_icons:hover {
+.social-icons:hover {
   color: var(--primary1);
   transform: scale(1.1);
 }
@@ -364,7 +364,7 @@
   flex: 1 0 auto;
 }
 
-.media_ul {
+.media-ul {
   list-style: none;
   display: flex;
   gap: 1.6rem;
